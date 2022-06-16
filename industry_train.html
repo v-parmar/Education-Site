@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Industrial Training - V.EDU'S</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Fredoka+One&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top" style="background-color: #d3d3d3;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"
+                style="font-family: 'Fredoka One', cursive; font-size: 20px;"><b>V.EDU'S</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="courses.html">Course List</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Registrations
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="stu_reg.html">Student Registration</a></li>
+                            <li><a class="dropdown-item" href="inst_reg.html">Instructor Registration</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            More
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="instructor.html">Instructors</a></li>
+                            <li><a class="dropdown-item" href="about.html">About Us</a></li>
+                            <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
+                            <li><a class="dropdown-item" href="terms_con.html">Terms of Uss</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="industry_train.html">Industrial Training</a>
+                    </li>
+                </ul>
+                <a class="nav-link" href="dashboard.html"><button type="button" class="btn btn-warning"><b>Login/Sign
+                            Up</b></button></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- title -->
+    <div class="card bg-warning my-5">
+        <div class="card-body">
+            <p class="card-title text-light d-flex justify-content-center" style="font-size: 40px;"><b>Industrial Training</b>
+            </p>
+        </div>
+    </div>
+
+      <!-- registration form -->
+    <div class="container card mb-3 my-5" style="background-color: #eeeeee; max-width: 998px;">
+        <div class="row g-0">
+            <p class="card-title d-flex justify-content-center my-4"><button type="button" class="btn btn-outline-warning"
+                style="font-size: 40px" disabled><b>Register For Industrial Training</b></button>
+            </p><br>
+        <div class="col-md-5">
+            <img src="img/form.jpg" class="img-fluid rounded-start p-2 mt-4" alt="form" width="100%">
+        </div>
+        <div class="col-md-7">
+            <div class="card-body py-3">
+            <form>
+                <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Your First name">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Your Last name">
+                </div>
+                </div><br>
+                <div class="form-group">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Enter email">
+                </div><br>
+                <div class="form-group">
+                <input type="number" class="form-control" placeholder="Enter Phone Number">
+                </div><br>
+                <div class="form-group">
+                <label for="selectcourse">Designation you apply for ?</label>
+                <select class="form-control">
+                    <option>Select Training Course</option>
+                    <option>Full Stack Web Developer</option>
+                    <option>Android Developer</option>
+                </select>
+                </div><br>
+                <div class="form-group">
+                <input type="text" class="form-control" placeholder="Branch">
+                </div><br>
+                <div class="form-group">
+                <input type="text" class="form-control" placeholder="Are you Free for 2 Months?">
+                </div><br>
+                <div class="form-group">
+                <input type="text" class="form-control" placeholder="Current Address">
+                </div><br>
+                <div class="mb-3">
+                <label for="formFile" class="form-label">Your Resume</label>
+                <input class="form-control" type="file" id="formFile">
+                </div>
+                <div class="form-group py-2 d-flex justify-content-center">
+                <button type="button" class="btn btn-warning btn-lg"><b>Enroll Now</b></button>
+                </div><br>
+            </form>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- internship -->
+    <div class="container card bg-warning my-5">
+        <div class="card-body">
+          <p class="card-title text-secondary d-flex justify-content-center" style="font-size: 40px;"><b>Internship! Internship! Internship!</b></p>
+          <p class="card-text " style="font-family: Arial, Helvetica, sans-serif; font-size: 20px;">But why should you choose us when there is a plethora of internships available around you? The reason solely depends on our goals, our goals to add on to your practical knowledge and make you stand in the world of neck to neck competitions. It is a time when information without practical knowledge is completely a garbage. Our internship shall carve and polish your skills to make you stand and face this corporate world.</p>
+        </div>
+        <div class="row row-cols-1 row-cols-md-4 g-4 mb-4">
+              <div class="col">
+                <div class="card h-100">
+                  <img src="img/google.jpg" class="card-img-top" alt="..." width="30px" height="250px">
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="img/microsoft.jpg" class="card-img-top" alt="..." width="30px" height="250px">
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="img/tcs.jpg" class="card-img-top" alt="..." width="30px" height="250px">
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100">
+                  <img src="img/amazon.jpg" class="card-img-top" alt="..." width="30px" height="250px">
+                </div>
+              </div>
+          </div>
+      </div>
+
+    <!-- our main goal -->
+      <div class="my-5">
+        <p class="card-title d-flex justify-content-center"><button type="button" class="btn btn-outline-dark" style="font-size: 40px" disabled><b>Our Main Goals</b></button>
+        </p><br>
+        <div class="card-text d-flex justify-content-center">
+            <button type="button" class="btn btn-outline-dark mx-4" disabled><b>Land into you dream job or create job for others</b></button>
+            <button type="button" class="btn btn-outline-dark mx-4" disabled><b>Secure good references and recommendations</b></button>
+        </div>
+        <div class="card-text d-flex justify-content-center my-4">
+            <button type="button" class="btn btn-outline-dark mx-3" disabled><b>Gain essential background knowledge</b></button>
+            <button type="button" class="btn btn-outline-dark mx-3" disabled><b>Polish your technical skills</b></button>
+            <button type="button" class="btn btn-outline-dark mx-3" disabled><b>Real-World Experience</b></button>
+            <button type="button" class="btn btn-outline-dark mx-3" disabled><b>Bolster your Resume</b></button>
+        </div>
+      </div>
+      
+    <!-- join community -->
+    <hr class="container text-warning border- opacity-100"><br>
+    <div class="mb-5">
+        <h2 class="d-flex justify-content-center"><b>Join Our Community</b></h2>
+        <p class="d-flex justify-content-center"><a href="https://chat.whatsapp.com/CDs6x99dZb0DWQg4yORBlL" target="_blank" class="btn btn-warning" style="font-family: Arial, Helvetica, sans-serif;"><b>Join Now</b></a></p>
+    </div>
+
+    <!-- footer -->
+    <div class="bg-dark text-light">
+        <div class="container py-5">
+            <section class="">
+                <div class="container text-center text-md-start mt-5">
+                    <div class="row mt-3">
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <p class="navbar-brand text-warning"
+                                style="font-family: 'Fredoka One', cursive; font-size: 30px;">V.EDU'S</p>
+                            <p>Tell me & I Forget. Teach me and I Remember. <br> Involve me and I Learn.</p>
+                            <p>+91 9860177421</p>
+                            <p>eduflares@gmail.com</p>
+                        </div>
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <p class="fw-bold mb-4 text-warning" style="font-size: 25px;">Quick Links</p>
+                            <p><a href="index.html" class="nav-link">Home</a></p>
+                            <p><a href="about.html" class="nav-link">About Us</a></p>
+                            <p><a href="contact.html" class="nav-link">Contact Us</a></p>
+                        </div>
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <p class="fw-bold mb-4 text-warning" style="font-size: 25px;">Resources</p>
+                            <p><a href="courses.html" class="nav-link">Course List</a></p>
+                            <p><a href="dashboard.html" class="nav-link">Dashboard</a></p>
+                            <p><a href="inst_reg.html" class="nav-link">Instructor Registration</a></p>
+                            <p><a href="stu_reg.html" class="nav-link">Student Registration</a></p>
+                        </div>
+                        <div class="col-md-4 col-lg-3 col-xl-2 mx-auto mb-md-0 mb-4">
+                            <p class="fw-bold mb-4 text-warning" style="font-size: 25px;">Support</p>
+                            <p><a href="terms_con.html" class="nav-link">Terms Of Use</a></p>
+                            <p><a href="about.html" class="nav-link">About Us</a></p>
+                            <p><a href="contact.html" class="nav-link">Contact Us</a></p>
+                            <p><a href="instructor.html" class="nav-link">Instructor</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="text-warning border- opacity-100">
+            <div class="text-center p-4">
+                Copyright ©2022 All rights reserved | This site is made by Vishal Parmar
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
